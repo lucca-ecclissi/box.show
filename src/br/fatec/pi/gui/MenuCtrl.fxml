@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefWidth="178.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+      <AnchorPane prefHeight="117.0" prefWidth="178.0" style="-fx-background-image: url(back.jpg);">
+         <children>
+            <ImageView fitHeight="54.0" fitWidth="73.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@user-10.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="74.0" layoutY="30.0" text="Bem Vindo!">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblNome" layoutX="17.0" layoutY="80.0" prefHeight="23.0" prefWidth="144.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton id="b1" buttonType="RAISED" onAction="#changePage" prefHeight="74.0" prefWidth="213.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Conheça o Curso" />
+      <JFXButton id="b2" buttonType="RAISED" layoutX="10.0" layoutY="123.0" onAction="#changePage" prefHeight="74.0" prefWidth="213.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Aulas" />
+      <JFXButton id="b3" buttonType="RAISED" layoutX="10.0" layoutY="197.0" onAction="#changePage" prefHeight="74.0" prefWidth="213.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="FAQ" />
+      <JFXButton id="b4" buttonType="RAISED" onAction="#changePage" prefHeight="74.0" prefWidth="213.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Instalando IDE's" />
+      <JFXButton id="exit" buttonType="RAISED" layoutX="10.0" layoutY="271.0" onAction="#exit" prefHeight="74.0" prefWidth="213.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="EXIT" />
+   </children>
+</VBox>

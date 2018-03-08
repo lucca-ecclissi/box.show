@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <BorderPane prefHeight="498.0" prefWidth="298.0">
+         <top>
+            <Pane prefHeight="101.0" prefWidth="298.0" style="-fx-background-color: #DAA520;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="139.0" layoutY="53.0" text="Conheça o Curso" textAlignment="CENTER" textFill="WHITE">
+                     <padding>
+                        <Insets left="-70.0" top="-20.0" />
+                     </padding>
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </top>
+         <center>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="C# é uma linguagem elegante orientada a objetos que permite aos desenvolvedores criar uma variedade de aplicativos seguros e robustos que são executados no .NET Framework.  Você pode usar o C# para criar aplicativos do Windows, serviços da Web, aplicativos móveis, aplicativos cliente-servidor, aplicativos de banco de dados e muito, muito mais.  O .NET Framework consiste no Common Language Runtime (CLR) e na biblioteca de classes .NET Framework.  O CLR é a base do .NET Framework. Ele gerencia o código no tempo de execução, fornecendo serviços essenciais, como gerenciamento de memória, precisão do código e muitos outros aspectos do seu código.  A biblioteca de classes é uma coleção de classes, interfaces e tipos de valor que permitem que você realize uma série de tarefas de programação comuns, como coleta de dados, acesso a arquivos e trabalho com texto.  Os programas C# usam a biblioteca de classes .NET Framework extensivamente para fazer tarefas comuns e fornecer várias funcionalidades.  O box.Show tem por finalidade transmitir ao usuário conhecimentos básicos sobre a linguagem C#. Contendo 8 aulas, cada aula é composta por conteúdo para estudo e duas perguntas a serem respondidas ao término do estudo de cada aula. O aluno pode também realizar o Exame Final, que é um teste de 10 perguntas, a fim de testar o conhecimento adquirido ao longo de todo o curso. Nesse momento, o aluno não terá direiro á consulta ao material para responder ás questões." textAlignment="CENTER" wrappingWidth="277.126953125" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </content>
+</ScrollPane>

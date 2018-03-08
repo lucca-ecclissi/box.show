@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="113.0" prefWidth="509.0" style="-fx-border-color: #f1f1f1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField fx:id="txtResposta" layoutX="23.0" layoutY="14.0" prefHeight="29.0" prefWidth="314.0" promptText="Resposta" />
+      <JFXTextArea fx:id="txtObs" layoutX="20.0" layoutY="66.0" prefHeight="29.0" prefWidth="321.0" promptText="Obs:." />
+      <JFXCheckBox fx:id="cbxResposta" layoutX="367.0" layoutY="81.0" text="Resposta Certa" />
+      <JFXButton fx:id="btnRemover" buttonType="RAISED" layoutX="383.0" layoutY="23.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: red;" text="Remover" textFill="#f2efef">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

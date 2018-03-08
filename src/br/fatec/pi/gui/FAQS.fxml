@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <BorderPane prefHeight="498.0" prefWidth="298.0">
+         <top>
+            <Pane prefHeight="101.0" prefWidth="298.0" style="-fx-background-color: #DAA520;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="190.0" layoutY="54.0" text="FAQS" textAlignment="CENTER" textFill="WHITE">
+                     <padding>
+                        <Insets left="-70.0" top="-20.0" />
+                     </padding>
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </top>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #f1f1f1;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="41.0" layoutY="14.0" prefHeight="81.0" prefWidth="216.0" text="1 - Como faço para ver minha pontuação ?" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="-10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="95.0" text="2 - Como faço bla bla bla" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="-10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="149.0" text="3 - O que é isso ?" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="-10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="194.0" text="4 - Tá pegando fogo bichol" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="-10.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="238.0" text="5 - Esquece, tá não!" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="-10.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </content>
+</ScrollPane>

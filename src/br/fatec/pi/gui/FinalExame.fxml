@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="apQuest" prefHeight="405.0" prefWidth="298.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+            <BorderPane prefHeight="407.0" prefWidth="298.0">
+               <top>
+                  <Pane prefHeight="122.0" prefWidth="298.0" style="-fx-background-color: #778899;" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="50.0" />
+                     </BorderPane.margin>
+               <children>
+                  <Label fx:id="lblResultado" alignment="CENTER" layoutX="11.0" layoutY="12.0" prefHeight="100.0" prefWidth="263.0" text="Passou" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+                  </Pane>
+               </top>
+               <bottom>
+            <AnchorPane prefHeight="69.0" prefWidth="298.0" style="-fx-background-color: #696969;">
+               <children>
+                        <JFXButton fx:id="btnProximo" buttonType="RAISED" layoutX="43.0" layoutY="15.0" prefHeight="40.0" prefWidth="212.0" style="-fx-background-color: #DAA520;" text="Avançar" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </JFXButton>
+               </children>
+            </AnchorPane>
+               </bottom>
+         <right>
+            <AnchorPane prefHeight="210.0" prefWidth="298.0" BorderPane.alignment="CENTER">
+               <children>
+                  <PieChart fx:id="pcAcertos" layoutX="49.0" layoutY="-36.0" prefHeight="178.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </children>
+            </AnchorPane>
+         </right>
+            </BorderPane>
+   </children>
+</AnchorPane>

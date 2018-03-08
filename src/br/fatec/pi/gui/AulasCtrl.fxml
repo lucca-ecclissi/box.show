@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="spMain" fx:controller="br.fatec.pi.gui.AulasCtrl" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <content>
+      <BorderPane prefHeight="498.0" prefWidth="298.0">
+         <center>
+            <VBox fx:id="vbCenter" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="48.0" prefWidth="94.0" text="Aulas" textAlignment="CENTER" textFill="#727272">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="-50.0" left="110.0" top="5.0" />
+                     </VBox.margin>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="128.98" radius="85.85749999999999" width="216.45" />
+                     </effect>
+                  </Label>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </content>
+</ScrollPane>

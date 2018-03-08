@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pnlMain" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane fx:id="pnlLista" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="680.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="65.0" prefWidth="600.0" style="-fx-border-color: #f1f1f1;" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXTextField fx:id="txtPesquisa" layoutX="45.0" layoutY="18.0" prefHeight="29.0" prefWidth="255.0" promptText="Pesquisar" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="18.0" />
+                  <JFXButton buttonType="RAISED" layoutX="376.0" layoutY="14.0" onAction="#pesquisa" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: white;" text="Pesquisar" textFill="#0a0101">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="btnNovo" buttonType="RAISED" layoutX="526.0" layoutY="14.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: blue;" text="Novo" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="2.0" />
+               </BorderPane.margin>
+            </AnchorPane>
+         </top>
+         <center>
+            <ScrollPane prefViewportHeight="333.0" prefViewportWidth="680.0">
+               <content>
+                  <VBox fx:id="vbLista" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+               </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

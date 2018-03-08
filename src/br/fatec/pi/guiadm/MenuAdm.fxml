@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.fatec.pi.guiadm.MenuAdm">
+   <top>
+      <BorderPane prefHeight="46.0" prefWidth="600.0" style="-fx-border-color: #f1f1f1;" BorderPane.alignment="CENTER">
+         <left>
+            <Label fx:id="lblTitle" text="Painel" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" />
+               </BorderPane.margin>
+            </Label>
+         </left>
+      </BorderPane>
+   </top>
+   <left>
+      <VBox prefHeight="361.0" prefWidth="200.0" style="-fx-border-color: #f1f1f1;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton id="btn01" buttonType="RAISED" onAction="#changePage" prefHeight="71.0" prefWidth="198.0" style="-fx-background-color: #f1f1f1;" text="Painel" />
+            <JFXButton id="btn03" buttonType="RAISED" onAction="#changePage" prefHeight="71.0" prefWidth="198.0" style="-fx-background-color: #f1f1f1;" text="Administradores" />
+            <JFXButton id="btn05" buttonType="RAISED" onAction="#changePage" prefHeight="71.0" prefWidth="198.0" style="-fx-background-color: #f1f1f1;" text="FAQs" visible="false" />
+            <JFXButton id="btn02" buttonType="RAISED" onAction="#changePage" prefHeight="71.0" prefWidth="198.0" style="-fx-background-color: #f1f1f1;" text="Aulas" />
+            <JFXButton id="btn04" buttonType="RAISED" onAction="#changePage" prefHeight="71.0" prefWidth="198.0" style="-fx-background-color: #f1f1f1;" text="Questões" />
+            <JFXButton buttonType="RAISED" onAction="#exit" prefHeight="71.0" prefWidth="198.0" style="-fx-background-color: crimson;" text="SAIR" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <ScrollPane fx:id="spCenter" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

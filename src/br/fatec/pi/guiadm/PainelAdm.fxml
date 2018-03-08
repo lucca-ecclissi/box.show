@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="407.0" fx:controller="br.fatec.pi.guiadm.PainelCtrl" prefWidth="680.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <PieChart fx:id="pcAlunos" layoutX="401.0" layoutY="109.0" prefHeight="300.0" prefWidth="300.0" AnchorPane.bottomAnchor="108.0" AnchorPane.leftAnchor="401.0" AnchorPane.rightAnchor="71.0" AnchorPane.topAnchor="109.0" />
+      <LineChart fx:id="lcAlunos" layoutX="41.0" layoutY="86.0" prefHeight="226.0" prefWidth="271.0" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="41.0" AnchorPane.rightAnchor="388.0" AnchorPane.topAnchor="86.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

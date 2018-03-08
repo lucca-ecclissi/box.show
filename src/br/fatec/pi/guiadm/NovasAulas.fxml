@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="67.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="btnVoltar" buttonType="RAISED" layoutX="42.0" layoutY="14.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: red;" text="Voltar" textFill="#f2efef">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="250.0" layoutY="14.0" onAction="#limpar" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: white;" text="Limpar" textFill="#0a0101">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="445.0" layoutY="14.0" onAction="#salvar" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: blue;" text="Salvar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXTextField fx:id="txtNome" layoutX="46.0" layoutY="26.0" prefHeight="29.0" prefWidth="376.0" promptText="Titulo" AnchorPane.bottomAnchor="278.0" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="178.0" AnchorPane.topAnchor="26.0" />
+            <JFXTextArea fx:id="txtDescricao" layoutX="46.0" layoutY="77.0" prefHeight="180.0" prefWidth="494.0" promptText=" Descrição" />
+            <JFXCheckBox fx:id="cbxProva" layoutX="436.0" layoutY="31.0" text="Exame" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
